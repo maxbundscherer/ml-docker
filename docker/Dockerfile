@@ -1,4 +1,4 @@
-FROM jupyter/minimal-notebook
+FROM jupyter/datascience-notebook
 
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
