@@ -23,11 +23,16 @@ You can use jupyter lab or run python scripts in attachted custom docker contain
 ### Jupyter lab mode
 
 - Do all steps in Let's get started (above)
-- Start docker container ``./start-jupyter-lab.sh ~/Desktop`` (replace ``~/Desktop`` by repo-path without ``/`` at end)
+- Start docker container ``./start-jupyter-lab.sh ~/Desktop``
+    - Replace ``~/Desktop`` by repo-path without ``/`` at end
 - Go to [http://127.0.0.1:50888/lab](http://127.0.0.1:50888/lab)
-- Login with token ``abc``
+    - Login with token ``abc``
 
 ### Script mode
 
 - Do all steps in Let's get started (above)
-- tbd
+- Start docker container ``./start-script.sh ~/Desktop src/ script.py``
+    - Replace ``~/Desktop`` by repo-path without ``/`` at end
+    - Replace ``src/`` by repo-sub-path
+    - Replace ``script.py`` by script filename in repo-sub-path
+- Read log ``cat run.log``
