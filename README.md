@@ -24,7 +24,7 @@ You can use jupyter lab or run python scripts in attachted custom docker contain
 
 - Do all steps in Let's get started (above)
 - Start docker container ``./start-jupyter-lab.sh ~/Desktop`` (replace ``~/Desktop`` by repo-path without ``/`` at end)
-- Go to [127.0.0.1:50888/lab](127.0.0.1:50888/lab)
+- Go to [http://127.0.0.1:50888/lab](http://127.0.0.1:50888/lab)
 - Login with token ``abc``
 
 ### Script mode
