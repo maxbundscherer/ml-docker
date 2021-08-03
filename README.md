@@ -17,8 +17,8 @@ You can use jupyter lab or run python scripts in attachted custom docker contain
 
 ### Let's get started
 
-1. tbd
-2. tbd
+1. Navigate to scripts folder ``cd scripts/``
+2. Build docker container ``./build-docker.sh``
 
 ### Jupyter lab mode
 

@@ -1,0 +1,3 @@
+cd ../docker/
+
+ls -al
