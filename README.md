@@ -13,7 +13,7 @@ Author: [Maximilian Bundscherer](https://bundscherer-online.de)
 - ``scripts/``: Scripts included
 - ``docker/``: Docker stuff included
 
-You can use jupyter lab or run python scripts in attachted custom docker container.
+You can use jupyter lab or run python scripts in attached custom docker container.
 
 ### Let's get started
 
