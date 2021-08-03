@@ -23,7 +23,7 @@ You can use jupyter lab or run python scripts in attachted custom docker contain
 ### Jupyter lab mode
 
 - Do all steps in Let's get started (above)
-- Start docker container ``./start-jupyter-lab.sh``
+- Start docker container ``./start-jupyter-lab.sh ~/Desktop`` (replace ``~/Desktop`` by repo-path without ``/`` at end)
 - tbd
 
 ### Script mode
