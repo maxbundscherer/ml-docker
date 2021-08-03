@@ -20,7 +20,7 @@ You can use jupyter lab or run python scripts in attachted custom docker contain
 - Navigate to scripts folder ``cd scripts/``
 - Build docker container ``./build-docker.sh``
 
-### Jupyter lab mode
+#### Jupyter lab mode
 
 - Do all steps in Let's get started (above)
 - Start docker container ``./start-jupyter-lab.sh ~/Desktop``
@@ -28,7 +28,7 @@ You can use jupyter lab or run python scripts in attachted custom docker contain
 - Go to [http://127.0.0.1:50888/lab](http://127.0.0.1:50888/lab)
     - Login with token ``abc``
 
-### Script mode
+#### Script mode
 
 - Do all steps in Let's get started (above)
 - Start docker container ``./start-script.sh ~/Desktop src/ script.py``
@@ -36,3 +36,9 @@ You can use jupyter lab or run python scripts in attachted custom docker contain
     - Replace ``src/`` by repo-sub-path
     - Replace ``script.py`` by script filename in repo-sub-path
 - Read log ``cat run.log``
+
+### Debug section
+
+- Navigate to scripts folder ``cd scripts/``
+- ``./check-docker.sh``: Check if docker container is running and check if image is available
+- ``./remove-docker.sh``: Remove running docker container and remove image
