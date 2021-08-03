@@ -1,0 +1,1 @@
+docker run --rm -p 50888:8888 --name ml-bundscherer image-ml-bundscherer:latest

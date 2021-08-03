@@ -17,15 +17,17 @@ You can use jupyter lab or run python scripts in attachted custom docker contain
 
 ### Let's get started
 
-1. Navigate to scripts folder ``cd scripts/``
-2. Build docker container ``./build-docker.sh``
+- Navigate to scripts folder ``cd scripts/``
+- Build docker container ``./build-docker.sh``
 
 ### Jupyter lab mode
 
-- tbd
+- Do all steps in Let's get started (above)
+- Start docker container ``./start-docker.sh``
 - tbd
 
 ### Script mode
 
-- tbd
+- Do all steps in Let's get started (above)
+- Start docker container ``./start-docker.sh``
 - tbd

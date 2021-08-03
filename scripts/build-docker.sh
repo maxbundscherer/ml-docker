@@ -1,3 +1,3 @@
 cd ../docker/
 
-ls -al
+docker build -t image-ml-bundscherer:latest .
