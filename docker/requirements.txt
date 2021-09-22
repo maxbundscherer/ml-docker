@@ -11,3 +11,4 @@ librosa==0.8.1
 tensorboard==2.6.0
 pandas-datareader==0.10.0
 opencv-python==4.5.3.56
+plotly==5.3.1
