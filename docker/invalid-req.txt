@@ -1,0 +1,3 @@
+fiftyone==0.13.3
+
+pycocotools==2.0.2
