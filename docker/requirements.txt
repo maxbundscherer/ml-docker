@@ -13,3 +13,4 @@ pandas-datareader==0.10.0
 opencv-python==4.5.3.56
 plotly==5.3.1
 praatio==5.0.0
+scikit-ued==2.1.7
