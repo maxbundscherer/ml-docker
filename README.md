@@ -31,9 +31,8 @@ You can use jupyter lab or run python scripts in attached custom docker containe
 #### Script mode
 
 - Do all steps in Let's get started (above)
-- Start docker container ``./start-script.sh ~/Desktop src/ script.py``
+- Start docker container ``./start-script.sh ~/Desktop script.py``
     - Replace ``~/Desktop`` by repo-path without ``/`` at end
-    - Replace ``src/`` by repo-sub-path
     - Replace ``script.py`` by script filename in repo-sub-path
 - Read log ``cat run.log``
 
