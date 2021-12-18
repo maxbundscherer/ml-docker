@@ -38,8 +38,6 @@ You can use jupyter lab or run python scripts in attached custom docker containe
 
 ## A word about docker and cuda
 
-![](./doc-img/nv-stack.png)
-
 - If you want to use cuda inside of a docker container, start ``nvidia-docker`` instead of ``docker``
 - If you want to specify which gpus you want to use, add prefix ``NV_GPU=3,4`` (check gpus on server with ``nvidia-smi`` before)
 - The scripts in the repo has built-in cuda support (``scripts/start-jupyter-lab.sh`` and ``scripts/start-script.sh``) (but please change which gpus you use)
