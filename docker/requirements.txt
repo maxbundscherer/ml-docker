@@ -8,4 +8,5 @@ torchaudio
 librosa
 seaborn
 plotly
+pillow
 swifter
