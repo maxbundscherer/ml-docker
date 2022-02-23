@@ -19,7 +19,8 @@ echo "- Script file $2"
 
 # Set gpus / Remove NV_GPU=... if you want to use only cpu
 # Use nvidia-docker instead of docker if you want tu use gpu
-NV_GPU=3,4 nvidia-docker run --rm --name ml-bundscherer \
+# NV_GPU=3,4 nvidia-docker
+docker run --rm --name ml-bundscherer \
         -e NB_UID=$user_id \
         -v $1:/home/jovyan/work \
         image-ml-bundscherer:latest \
