@@ -1,3 +1,4 @@
+tensorboard
 scikit-image
 opencv-python
 jupyterlab
