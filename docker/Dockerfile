@@ -8,6 +8,8 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update
 
+RUN apt-get dist-upgrade -y
+
 # Install Python3 and Pip
 # Only required if base img is NOT python:3.9
 RUN apt-get install python3 python3-pip -y
