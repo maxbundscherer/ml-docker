@@ -26,7 +26,7 @@ docker run --rm --name ml-bundscherer \
         --NotebookApp.token='abc'
 
 
-docker exec ml-bundscherer -it /bin/bash
+docker exec -it ml-bundscherer /bin/bash
 docker stop ml-bundscherer
 
 echo "Docker stoped"
