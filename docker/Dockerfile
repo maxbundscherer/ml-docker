@@ -15,6 +15,9 @@ RUN apt-get install python3 python3-pip -y
 # Install Librosa Dependencies
 RUN apt-get install libsndfile1-dev -y
 
+# Install CV2 Dependencies
+ffmpeg libsm6 libxext6  -y
+
 # Alias python -> python3 (required for some libs and scripts)
 # Only required if base img is NOT python:3.9
 RUN apt-get install python-is-python3 -y
