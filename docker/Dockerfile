@@ -16,7 +16,8 @@ RUN apt-get install python3 python3-pip -y
 RUN apt-get install libsndfile1-dev -y
 
 # Install CV2 Dependencies
-RUN apt-get install ffmpeg libsm6 libxext6  -y
+#RUN apt-get install ffmpeg libsm6 libxext6  -y
+RUN apt-get python3-opencv
 
 # Alias python -> python3 (required for some libs and scripts)
 # Only required if base img is NOT python:3.9
