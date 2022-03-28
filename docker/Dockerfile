@@ -1,6 +1,7 @@
 # See ref images in https://hub.docker.com/r/nvidia/cuda
 # FROM nvidia/cuda:11.4.2-base-ubuntu20.04
-FROM python:3.9 (if you want to use no cuda in docker)
+FROM python:3.9 
+#(if you want to use no cuda in docker)
 
 # Workaround: Set region in ubuntu on install auto
 # Only required if base img is nvidia/cuda:11.4.2-base-ubuntu20.04
