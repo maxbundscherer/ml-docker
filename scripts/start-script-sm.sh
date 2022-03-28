@@ -43,5 +43,8 @@ echo "#########################################################"
 cat log.txt
 echo "#########################################################"
 
+echo >> "$4log.txt"
+echo "[CMD] has finished" >> "$4log.txt"
+
 # Deprecated, but may useful:
 #    --user root \
