@@ -29,7 +29,7 @@ docker run --rm --name ml-bundscherer \
 docker exec -it ml-bundscherer /bin/bash
 docker stop ml-bundscherer
 
-echo "Docker stoped"
+echo "Docker stopped"
 
 # Deprecated, but may useful:
 #    -e JUPYTER_ENABLE_LAB=yes \

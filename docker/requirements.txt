@@ -4,7 +4,7 @@ opencv-python
 jupyterlab
 matplotlib
 pandas
-numpy
+numpy==1.21
 scikit-learn
 torch
 torchaudio
