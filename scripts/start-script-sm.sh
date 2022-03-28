@@ -40,7 +40,7 @@ docker run --rm --name ml-bundscherer \
 
 echo
 echo "#########################################################"
-cat log.txt
+cat "$4log.txt
 echo "#########################################################"
 
 echo >> "$4log.txt"
