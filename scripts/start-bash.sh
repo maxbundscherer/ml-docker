@@ -14,7 +14,7 @@ echo "- Mount path $1"
 # Use nvidia-docker instead of docker if you want tu use gpu
 #NV_GPU=3,4 nvidia-
 docker run --rm --name ml-bundscherer \
-	-d
+	-d \
         -e NB_UID=$user_id \
         -p 50888:8888 \
         -v $1:/home/jovyan/work \
