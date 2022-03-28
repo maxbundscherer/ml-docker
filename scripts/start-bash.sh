@@ -6,9 +6,15 @@ if [ "$1" = "" ]; then
     exit
 fi
 
+if [ "$2" = "" ]; then
+    echo "Error: Please enter second mount path"
+    exit
+fi
+
 user_id=`id -u`
 echo "- Set NB_UID to $user_id"
 echo "- Mount path $1"
+echo "- Mount path $2"
 
 # Set gpus / Remove NV_GPU=... if you want to use only cpu
 # Use nvidia-docker instead of docker if you want tu use gpu
@@ -18,6 +24,7 @@ docker run --rm --name ml-bundscherer \
         -e NB_UID=$user_id \
         -p 50888:8888 \
         -v $1:/home/jovyan/work \
+        -v $2:/home/jovyan/work2 \
         image-ml-bundscherer:latest \
         jupyter lab \
         --allow-root \
