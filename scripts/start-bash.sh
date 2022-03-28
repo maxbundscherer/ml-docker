@@ -3,7 +3,7 @@ if [ "$1" = "" ]; then
     exit
 fi
 
-docker exec --name ml-bundscherer \
+docker exec \
         -e NB_UID=$user_id \
         -v $1:/home/jovyan/work \
         image-ml-bundscherer:latest \
