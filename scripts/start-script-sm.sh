@@ -17,6 +17,11 @@ if [ "$3" = "" ]; then
     exit
 fi
 
+if [ "$4" = "" ]; then
+    echo "Error: Please enter host-log-path"
+    exit
+fi
+
 user_id=`id -u`
 echo "- Set NB_UID to $user_id"
 echo "- Mount path $1"
@@ -31,7 +36,7 @@ docker run --rm --name ml-bundscherer \
         -v $1:/home/jovyan/work \
         -v $3:/home/jovyan/work2 \
         image-ml-bundscherer:latest \
-        /bin/bash -c "cd /home/jovyan/work; python $2" > log.txt 2>&1
+        /bin/bash -c "cd /home/jovyan/work; python $2" > "$4log.txt" 2>&1
 
 echo
 echo "#########################################################"
